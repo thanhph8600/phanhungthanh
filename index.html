@@ -21,6 +21,7 @@
     <meta name="author" content="Phan Hùng Thành" />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://phanhungthanh.vercel.app/" />
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="logo.svg" />
@@ -51,7 +52,9 @@
     <meta property="og:site_name" content="Phan Hung Thanh" />
 
     <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://phanhungthanh.vercel.app/phan-hung-thanh.jpg" />
+    <meta name="twitter:image:alt" content="Phan Hung Thanh — Backend Developer Da Nang Vietnam" />
     <meta name="twitter:title" content="Phan Hung Thanh — Backend Developer" />
     <meta
       name="twitter:description"
@@ -68,7 +71,17 @@
         "@type": "Person",
         "name": "Phan Hùng Thành",
         "alternateName": ["Phan Hung Thanh", "PHT"],
-        "image": "https://phanhungthanh.vercel.app/phan-hung-thanh.jpg",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://phanhungthanh.vercel.app/phan-hung-thanh.jpg",
+          "contentUrl": "https://phanhungthanh.vercel.app/phan-hung-thanh.jpg",
+          "name": "Phan Hùng Thành — Backend Developer",
+          "description": "Ảnh chân dung Phan Hùng Thành, Backend Developer tại Đà Nẵng, Việt Nam",
+          "width": 400,
+          "height": 400,
+          "encodingFormat": "image/jpeg",
+          "representativeOfPage": true
+        },
         "jobTitle": "Backend Developer",
         "birthDate": "2000-06-08",
         "url": "https://phanhungthanh.vercel.app/",
@@ -232,8 +245,13 @@
             >
               <img
                 src="phan-hung-thanh.jpg"
-                alt="Phan Hùng Thành — Backend Developer tại Đà Nẵng"
+                alt="Phan Hùng Thành — Backend Developer tại Đà Nẵng, Việt Nam"
+                title="Phan Hùng Thành"
                 class="about__avatar-img"
+                width="400"
+                height="400"
+                loading="eager"
+                itemprop="image"
               />
               <div class="about__avatar-ring"></div>
               <div class="about__avatar-pulse"></div>
