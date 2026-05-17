@@ -111,9 +111,11 @@
           "Git",
           "OpenAI API Integration"
         ],
+        "telephone": "+84898247883",
         "sameAs": [
           "https://www.linkedin.com/in/phan-hung-thanh/",
-          "https://www.facebook.com/thanhph8600"
+          "https://www.facebook.com/thanhph8600",
+          "https://github.com/thanhph8600"
         ]
       }
     </script>
@@ -156,7 +158,9 @@
         <ul class="nav__links">
           <li><a href="#about">About</a></li>
           <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
           <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -218,7 +222,20 @@
             </svg>
             Get in Touch
           </a>
-          <a href="#experience" class="btn btn--outline">View Experience</a>
+          <a href="Phan-Hung-Thanh-backend-developer.pdf" download class="btn btn--outline">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/>
+              <polyline points="7 10 12 15 17 10"/>
+              <line x1="12" y1="15" x2="12" y2="3"/>
+            </svg>
+            Download CV
+          </a>
+          <a href="https://github.com/thanhph8600" target="_blank" rel="noopener noreferrer" class="btn btn--ghost">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+            </svg>
+            GitHub
+          </a>
         </div>
       </div>
 
@@ -491,6 +508,160 @@
       </div>
     </section>
 
+    <!-- Projects -->
+    <section id="projects" class="section projects" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section__header" data-reveal data-delay="0">
+          <h2 class="section__title" id="projects-title">Projects</h2>
+        </div>
+
+        <div class="projects__grid">
+
+          <!-- Project 1 -->
+          <article class="project-card" data-reveal data-delay="0">
+            <div class="project-card__header">
+              <div class="project-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2a10 10 0 100 20A10 10 0 0012 2z"/>
+                  <path d="M12 8v4l3 3"/>
+                </svg>
+              </div>
+              <div class="project-card__meta">
+                <span class="project-card__date">03/2025 – 06/2025</span>
+                <span class="project-card__role">Backend Developer</span>
+              </div>
+            </div>
+            <h3 class="project-card__title">Plant &amp; Mineral Identification App</h3>
+            <p class="project-card__desc">RESTful API backend for a mobile application (iOS/Android) that identifies plants and minerals via AI-powered image scanning, serving features from content management to in-app purchases.</p>
+            <ul class="project-card__list">
+              <li>Designed modular NestJS backend with lazy-loaded services, role-based auth (JWT), and job scheduling (Agenda)</li>
+              <li>Integrated OpenAI API for plant disease diagnosis and AI-powered care recommendations</li>
+              <li>Implemented in-app purchase validation for Apple IAP and Google Play Billing with subscription management</li>
+              <li>Developed real-time notification system via WebSocket (Socket.io) and Firebase Cloud Messaging</li>
+              <li>Built media processing pipeline for image/video upload and optimization</li>
+            </ul>
+            <div class="project-card__tags">
+              <span class="tag">NestJS</span>
+              <span class="tag">TypeScript</span>
+              <span class="tag">OpenAI</span>
+              <span class="tag">Socket.IO</span>
+              <span class="tag">Firebase FCM</span>
+              <span class="tag">JWT</span>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card" data-reveal data-delay="100">
+            <div class="project-card__header">
+              <div class="project-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="3" y="3" width="18" height="18" rx="2"/>
+                  <path d="M3 9h18M9 21V9"/>
+                </svg>
+              </div>
+              <div class="project-card__meta">
+                <span class="project-card__date">07/2025 – 05/2026</span>
+                <span class="project-card__role">Backend Developer</span>
+              </div>
+            </div>
+            <h3 class="project-card__title">Nail Salon Management System</h3>
+            <p class="project-card__desc">RESTful API backend for a multi-branch nail salon chain management platform.</p>
+            <ul class="project-card__list">
+              <li>Designed and developed RESTful APIs for multi-branch nail salon management using NestJS and TypeScript</li>
+              <li>Built appointment scheduling, worker shift management, and customer turn-tracking modules</li>
+              <li>Integrated third-party payment gateways (Braintree, PayPal) and communication services (Twilio SMS, SendGrid Email)</li>
+              <li>Implemented real-time notifications using Socket.IO with Redis adapter</li>
+              <li>Developed role-based access control (RBAC) with JWT and Passport.js</li>
+              <li>Integrated AWS S3 for media storage and Google Cloud Vision API for image processing</li>
+              <li>Managed campaign and voucher/promotion systems for customer retention</li>
+            </ul>
+            <div class="project-card__tags">
+              <span class="tag">NestJS</span>
+              <span class="tag">TypeScript</span>
+              <span class="tag">Braintree</span>
+              <span class="tag">PayPal</span>
+              <span class="tag">Redis</span>
+              <span class="tag">AWS S3</span>
+              <span class="tag">Twilio</span>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card" data-reveal data-delay="200">
+            <div class="project-card__header">
+              <div class="project-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"/>
+                  <path d="M12 8v4l3 3"/>
+                  <path d="M3.6 9h16.8M3.6 15h16.8"/>
+                </svg>
+              </div>
+              <div class="project-card__meta">
+                <span class="project-card__date">10/2025 – 04/2026</span>
+                <span class="project-card__role">Backend Developer</span>
+              </div>
+            </div>
+            <h3 class="project-card__title">Multi-Vendor Food Delivery Platform</h3>
+            <p class="project-card__desc">Backend system for a multi-vendor food delivery platform supporting customers, shippers, store owners, and regional admins — similar to GrabFood/Baemin.</p>
+            <ul class="project-card__list">
+              <li>Built scalable RESTful API with NestJS + TypeScript serving 4 user roles</li>
+              <li>Implemented real-time order tracking and in-app messaging using WebSocket (Socket.io)</li>
+              <li>Designed multi-role access control with JWT authentication and Passport.js guards</li>
+              <li>Integrated Firebase FCM, AWS S3, and Redis for push notifications, file storage, and caching</li>
+              <li>Developed core modules: product catalog, vouchers, shopping cart, order management, reviews, transaction history</li>
+              <li>Followed Clean Architecture principles using base repository pattern, DTO validation, custom decorators and interceptors</li>
+            </ul>
+            <div class="project-card__tags">
+              <span class="tag">NestJS</span>
+              <span class="tag">TypeScript</span>
+              <span class="tag">Redis</span>
+              <span class="tag">AWS S3</span>
+              <span class="tag">Firebase</span>
+              <span class="tag">Clean Architecture</span>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project-card project-card--featured" data-reveal data-delay="300">
+            <div class="project-card__header">
+              <div class="project-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/>
+                </svg>
+              </div>
+              <div class="project-card__meta">
+                <span class="project-card__date">03/2026 – Present</span>
+                <span class="project-card__role project-card__role--full">Fullstack Developer</span>
+              </div>
+            </div>
+            <h3 class="project-card__title">Social Media Automation Platform <span class="project-card__badge">Current</span></h3>
+            <a href="https://sellix.web.app/" target="_blank" rel="noopener noreferrer" class="project-card__link">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              sellix.web.app
+            </a>
+            <p class="project-card__desc">Multi-platform social media automation tool enabling users to schedule posts, manage campaigns, and generate AI-assisted content across Facebook, Threads, and more.</p>
+            <ul class="project-card__list">
+              <li>Designed modular NestJS backend with lazy-loaded services, role-based auth (JWT), and job scheduling (Agenda)</li>
+              <li>Built AI-powered content generation using OpenAI and Anthropic APIs</li>
+              <li>Implemented real-time notifications via WebSocket and Firebase Cloud Messaging</li>
+              <li>Developed subscription &amp; payment system with PayPal integration</li>
+              <li>Created multi-workspace management with granular permissions</li>
+            </ul>
+            <div class="project-card__tags">
+              <span class="tag">NestJS</span>
+              <span class="tag">TypeScript</span>
+              <span class="tag">OpenAI</span>
+              <span class="tag">Anthropic</span>
+              <span class="tag">PayPal</span>
+              <span class="tag">Firebase</span>
+              <span class="tag">React</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
     <!-- Skills -->
     <section id="skills" class="section skills" aria-labelledby="skills-title">
       <div class="container">
@@ -697,6 +868,32 @@
       </div>
     </section>
 
+    <!-- Education -->
+    <section id="education" class="section education" aria-labelledby="edu-title">
+      <div class="container">
+        <div class="section__header" data-reveal data-delay="0">
+          <h2 class="section__title" id="edu-title">Education</h2>
+        </div>
+        <div class="edu-card" data-reveal data-delay="100">
+          <div class="edu-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+              <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+            </svg>
+          </div>
+          <div class="edu-card__info">
+            <h3 class="edu-card__school">FPT Polytechnic</h3>
+            <p class="edu-card__major">Web Programming</p>
+            <p class="edu-card__date">2022 – 2024</p>
+          </div>
+          <div class="edu-card__gpa">
+            <span class="edu-card__gpa-num">4.0</span>
+            <span class="edu-card__gpa-label">GPA / 4.0</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Contact -->
     <section
       id="contact"
@@ -782,6 +979,42 @@
               <div class="contact-card__info">
                 <span class="contact-card__label">Facebook</span>
                 <span class="contact-card__value">thanhph8600</span>
+              </div>
+              <span class="contact-card__arrow" aria-hidden="true">→</span>
+            </a>
+
+            <a
+              href="https://github.com/thanhph8600"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="contact-card"
+              aria-label="GitHub profile"
+            >
+              <div class="contact-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+                </svg>
+              </div>
+              <div class="contact-card__info">
+                <span class="contact-card__label">GitHub</span>
+                <span class="contact-card__value">thanhph8600</span>
+              </div>
+              <span class="contact-card__arrow" aria-hidden="true">→</span>
+            </a>
+
+            <a
+              href="tel:+84898247883"
+              class="contact-card"
+              aria-label="Phone number"
+            >
+              <div class="contact-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8a19.79 19.79 0 01-3.07-8.64A2 2 0 012 .18h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+                </svg>
+              </div>
+              <div class="contact-card__info">
+                <span class="contact-card__label">Phone</span>
+                <span class="contact-card__value">0898 247 883</span>
               </div>
               <span class="contact-card__arrow" aria-hidden="true">→</span>
             </a>
